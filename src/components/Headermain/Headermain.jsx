@@ -35,7 +35,7 @@ export default function Hero() {
       {/* Image */}
       <div className="flex-1 flex justify-center items-center">
         <img
-          src="/public/images/Skrinshot 2025-09-16 231706.png"
+          src="public/images/Skrinshot 2025-09-16 231706.png"
           alt="Programmer"
           className="w-64 sm:w-80 md:w-96 rounded-full shadow-2xl border-4 border-green-500"
         />
