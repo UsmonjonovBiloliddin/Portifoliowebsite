@@ -42,7 +42,7 @@ const Footer = () => {
             <Linkedin size={22} />
           </a>
           <a 
-            href="https://t.me/username" 
+            href="@Usmonjonov_Biloliddin" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-sky-400 dark:hover:text-sky-600 transition-colors"

@@ -29,7 +29,7 @@ const Resume = () => {
         </a>
 
         <a
-          href="/Usmonjonov-Biloliddin-FlowCV-Resume-20250916.pdf"
+          href="/public/My Portifolio.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white font-medium rounded-2xl shadow-lg hover:bg-blue-700 hover:scale-105 transform transition-all duration-300 w-full sm:w-auto"
