@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+a:hover{
+    cursor: pointer;
+}
+.container{
+    max-width: 1550px;
+    margin: 0px auto;
+}
