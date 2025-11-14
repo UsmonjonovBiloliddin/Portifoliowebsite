@@ -9,31 +9,31 @@ const projects = [
   {
     title: "Kindergarten Finder",
     description: "Interactive Kindergarten Finder UI built with React and Tailwind",
-    img: "/public/images//Skrinshot 2025-11-14 193729.png",
+    img: "/images//Skrinshot 2025-11-14 193729.png",
     link: "https://forkindergarten.netlify.app/",
   },
   {
     title: "Movie Website",
     description: "Modern and interactive Movie web site UI built with React.js.",
-    img: "/public/images//Skrinshot 2025-10-06 212317.png",
+    img: "/images//Skrinshot 2025-10-06 212317.png",
     link: "https://website-movie-eight.vercel.app/",
   },
   {
     title: "SEOM Project",
     description: "Sanitary-Epidemiological Safety Center  UI built with React.js.",
-    img: "/public/images//image copy 3.png",
+    img: "/images//image copy 3.png",
     link: "https://seomproject.netlify.app/",
   },
    {
     title: "Myloud Project",
     description: "MyCloud Hosting Admin Panel UI built with React & Tailwind",
-    img: "/public/images//Skrinshot 2025-11-14 195632.png",
+    img: "/images//Skrinshot 2025-11-14 195632.png",
     link: "https://mycloudadmin.netlify.app/",
   },
   {
     title: "YouTube Clone",
     description: "Modern and interactive Youtube Clone UI built with React.js",
-    img: "/public/images//image copy 4.png",
+    img: "/images//image copy 4.png",
     link: "https://youtubecloneproject22.netlify.app/",
   },
   

@@ -14,7 +14,7 @@ const About = () => {
         {/* Image */}
         <div className="w-36 h-36 sm:w-44 sm:h-44 md:w-56 md:h-56 rounded-full overflow-hidden shadow-lg border-4 border-green-500 flex-shrink-0">
           <img
-            src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=2210&quality=70"
+            src="/images//eyJpbWFnZUlkIjoiYXZhdGFyLzRXemhya0RpekMxX1pFNU8tRTBqUy5qcGVnIiwidHJhbnNmb3JtYXRpb25zIjp7ImNyb3AiOnsieVBjdCI6MC4yMzgyMTA0ODc0MjkyMzc1LCJ4UGN0IjowLCJ3aWR0aFBjdCI6MSwiaGVpZ2h0UGN0IjowLjU2MDkzNzV9LCJ3aWR0aCI6NjA.jpg"
             alt="Profile"
             className="w-full h-full object-cover"
           />
