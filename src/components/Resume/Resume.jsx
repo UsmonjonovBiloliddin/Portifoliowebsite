@@ -21,7 +21,7 @@ const Resume = () => {
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
         <a
           download={"Usmonjonov-Biloliddin-FlowCV-Resume-20250916.pdf"}
-          href="/Usmonjonov-Biloliddin-FlowCV-Resume-20250916.pdf"
+          href="/public/My Portifolio.pdf"
           className="flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white font-medium rounded-2xl shadow-lg hover:bg-green-700 hover:scale-105 transform transition-all duration-300 w-full sm:w-auto"
         >
           <FileDown size={20} />
