@@ -20,8 +20,8 @@ const Resume = () => {
       {/* Buttons */}
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
         <a
-          download={"Usmonjonov-Biloliddin-FlowCV-Resume-20250916.pdf"}
-          href="/public/My Portifolio.pdf"
+          download={"/public/images/My Resume.pdf"}
+          href="/public/images/My Resume.pdf"
           className="flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white font-medium rounded-2xl shadow-lg hover:bg-green-700 hover:scale-105 transform transition-all duration-300 w-full sm:w-auto"
         >
           <FileDown size={20} />
@@ -29,7 +29,7 @@ const Resume = () => {
         </a>
 
         <a
-          href="/public/My Portifolio.pdf"
+          href="/public/images/My Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white font-medium rounded-2xl shadow-lg hover:bg-blue-700 hover:scale-105 transform transition-all duration-300 w-full sm:w-auto"
