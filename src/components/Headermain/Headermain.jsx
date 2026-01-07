@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
-    <div className="w-full  min-h-[606px] bg-gray-900 dark:bg-white text-white dark:text-black flex flex-col md:flex-row items-center justify-center p-6 md:p-12 gap-8 md:gap-16">
+    <div className="w-full  min-h-[635px] bg-gray-900 dark:bg-white text-white dark:text-black flex flex-col md:flex-row items-center justify-center p-6 md:p-12 gap-8 md:gap-16">
       
       {/* Text */}
       <div className="flex-1 text-center md:text-left space-y-6">
@@ -35,9 +35,9 @@ export default function Hero() {
       {/* Image */}
       <div className="flex-1 flex justify-center items-center">
         <img
-          src="/images/Skrinshot 2025-09-16 231706.png"
+          src="/public/images/my.JPG"
           alt="Programmer"
-          className="w-64 sm:w-80 md:w-96 rounded-full shadow-2xl border-4 border-green-500"
+          className="w-[350px] h-[350px] rounded-full object-cover  shadow-2xl border-4 border-green-500"
         />
       </div>
     </div>

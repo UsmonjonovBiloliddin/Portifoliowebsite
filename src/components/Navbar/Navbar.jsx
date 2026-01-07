@@ -54,13 +54,13 @@ const Navbar = () => {
         <div className="flex items-center gap-2 sm:gap-4">
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="bg-green-500 text-white p-1 sm:p-2 rounded flex items-center justify-center hover:bg-green-600 dark:hover:bg-green-500 transition-all"
+            className="bg-green-500 text-white cursor-pointer p-1 sm:p-2 rounded flex items-center justify-center hover:bg-green-600 dark:hover:bg-green-500 transition-all"
           >
             {darkMode ? <FaSun size={16} /> : <FaMoon size={16} />}
           </button>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-white dark:text-black focus:outline-none p-1"
+            className="md:hidden text-white cursor-pointer dark:text-black focus:outline-none p-1"
           >
             {menuOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
           </button>
