@@ -1,11 +1,7 @@
 import React from "react";
-import { Github, Instagram, MessageCircle, Send } from "lucide-react";
+import { Github, Instagram, Linkedin, MessageCircle, Send } from "lucide-react";
 
 const Contact = () => {
-  const handleEmailClick = () => {
-    // Bosilganda default email client ochiladi
-    window.location.href = "mailto:usmonjonovbiloliddin40@gmail.com";
-  };
 
   return (
     <section
@@ -47,6 +43,15 @@ const Contact = () => {
               className="flex items-center gap-2 text-gray-300 dark:text-gray-700 hover:text-blue-400 dark:hover:text-blue-600 transition-all"
             >
               <MessageCircle size={24} /> Telegram
+            </a>
+            <a
+              href="https://www.linkedin.com/in/biloliddin-usmonjonov-1a2a48372/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gray-300 dark:text-gray-700 hover:text-blue-400 dark:hover:text-blue-600 transition-all"
+            >
+              <Linkedin size={24} />  
+               Linkedin
             </a>
           </div>
         </div>

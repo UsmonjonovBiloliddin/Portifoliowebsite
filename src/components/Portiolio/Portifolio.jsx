@@ -25,7 +25,13 @@ const projects = [
     link: "https://seomproject.netlify.app/",
   },
    {
-    title: "Myloud Project",
+    title: "Dashboard Admin panel",
+    description: "Dashboard Admin panel UI built with React.js.",
+    img: "/images/Skrinshot 2026-01-08 222441.png",
+    link: "https://dashboardsiteweb.netlify.app/",
+  },
+   {
+    title: "MyCloud Project",
     description: "MyCloud Hosting Admin Panel UI built with React & Tailwind",
     img: "/images//Skrinshot 2025-11-14 195632.png",
     link: "https://mycloudadmin.netlify.app/",
@@ -66,13 +72,13 @@ const Portifolio = () => {
       <div className="flex justify-end gap-2 sm:gap-4 w-full max-w-7xl">
         <button
           ref={prevRef}
-          className="bg-green-500 hover:bg-green-600 text-white p-2 sm:p-3 rounded transition-all"
+          className="bg-green-500 hover:bg-green-600 text-white cursor-pointer p-2 sm:p-3 rounded transition-all"
         >
-          <FaArrowLeftLong />
+          <FaArrowLeftLong  />
         </button>
         <button
           ref={nextRef}
-          className="bg-green-500 hover:bg-green-600 text-white p-2 sm:p-3 rounded transition-all"
+          className="bg-green-500 hover:bg-green-600 cursor-pointer text-white p-2 sm:p-3 rounded transition-all"
         >
           <FaArrowRightLong />
         </button>

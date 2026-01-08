@@ -14,7 +14,7 @@ const About = () => {
         {/* Image */}
         <div className="w-36 h-36 sm:w-44 sm:h-44 md:w-56 md:h-56 rounded-full overflow-hidden shadow-lg border-4 border-green-500 flex-shrink-0">
           <img
-            src="/public/images/Skrinshot 2025-09-16 231706.png"
+            src="/images/Skrinshot 2025-09-16 231706.png"
             alt="Profile"
             className="w-full h-full object-cover"
           />
