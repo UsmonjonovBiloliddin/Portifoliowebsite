@@ -29,7 +29,7 @@ const About = () => {
             <p><span className="font-semibold text-green-400">Name:</span> Biloliddin</p>
             <p><span className="font-semibold text-green-400">Surname:</span> Usmonjonov</p>
             <p><span className="font-semibold text-green-400">Age:</span> 19</p>
-            <p><span className="font-semibold text-green-400">Experience:</span> 2 years as strong Junior Frontend Developer</p>
+            <p><span className="font-semibold text-green-400">Experience:</span> 2 years as Strong Junior - Middle Frontend Developer</p>
             <p><span className="font-semibold text-green-400">Location:</span> Fergana, Uzbekistan</p>
           </div>
         </div>

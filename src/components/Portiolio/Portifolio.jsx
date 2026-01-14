@@ -10,7 +10,7 @@ const projects = [
     title: "Kindergarten Finder",
     description: "Interactive Kindergarten Finder UI built with React and Tailwind",
     img: "/images//Skrinshot 2025-11-14 193729.png",
-    link: "https://forkindergarten.netlify.app/",
+    link: "https://kinder-garden.uz/",
   },
   {
     title: "Movie Website",
