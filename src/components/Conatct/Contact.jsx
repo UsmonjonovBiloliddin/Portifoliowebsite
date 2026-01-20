@@ -6,9 +6,10 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full flex justify-center items-center bg-gray-800 dark:bg-gray-100 py-16 px-4 sm:px-6"
+      className=" bg-gray-800 dark:bg-gray-100 "
     >
-      <div className="max-w-6xl w-full justify-center bg-gray-900 dark:bg-white shadow-2xl rounded-2xl p-6 sm:p-10 border border-gray-700 dark:border-gray-200 flex flex-col md:flex-row gap-8 md:gap-12">
+     <div className="container w-full flex justify-center items-center py-16 px-4 sm:px-6">
+       <div className=" max-w-6xl w-full justify-center bg-gray-900 dark:bg-white shadow-2xl rounded-2xl p-6 sm:p-10 border border-gray-700 dark:border-gray-200 flex flex-col md:flex-row gap-8 md:gap-12">
         {/* Contact Info */}
         <div className="flex flex-col justify-center gap-4 md:gap-6 text-center ">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white dark:text-gray-900 mb-2">
@@ -29,7 +30,7 @@ const Contact = () => {
               <Github size={24} /> GitHub
             </a>
             <a
-              href="https://www.instagram.com/biloliddin_usmonjonov06/"
+              href="https://www.instagram.com/usmonjonov_biloliddin/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-300 dark:text-gray-700 hover:text-pink-500 dark:hover:text-pink-700 transition-all"
@@ -59,6 +60,7 @@ const Contact = () => {
         {/* Email Button */}
         
       </div>
+     </div>
     </section>
   );
 };

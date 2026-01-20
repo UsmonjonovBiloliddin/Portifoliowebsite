@@ -29,8 +29,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" w-full top-0 py-2  bg-gray-900 dark:bg-white text-white dark:text-black shadow-md transition-colors duration-300 z-50">
-      <div className="max-w-9xl  mx-auto flex justify-between items-center p-3 px-4 sm:px-6 md:px-12">
+    <nav className="  bg-gray-900 dark:bg-white text-white dark:text-black shadow-md ">
+      <div className="container  w-full top-0 py-2">
+        <div className="max-w-9xl  mx-auto flex justify-between items-center p-3 px-4 sm:px-6 md:px-12 transition-colors duration-300 z-50">
         {/* Logo */}
         <div className="flex items-center gap-2 sm:gap-3">
           <div className="w-8 h-8 sm:w-10 sm:h-10 bg-green-500 rounded-full flex justify-center items-center text-white font-bold text-sm sm:text-base">
@@ -84,6 +85,7 @@ const Navbar = () => {
           ))}
         </ul>
       )}
+      </div>
     </nav>
   );
 };

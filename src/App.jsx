@@ -8,7 +8,6 @@ function App() {
 
 
   return (
-    <div className="container ">
         <BrowserRouter>
         <Navbar/>
           <Routes>
@@ -16,7 +15,6 @@ function App() {
           </Routes>
           <Footer/>
         </BrowserRouter>
-    </div>
   );
 }
 

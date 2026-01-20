@@ -5,9 +5,10 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="w-full dark:bg-white dark:text-gray-900 bg-gray-900 flex flex-col justify-center items-center text-center px-4 sm:px-6 py-12"
+      className="w-full dark:bg-white dark:text-gray-900 bg-gray-900 "
     >
-      {/* Title */}
+     <div className="container flex flex-col justify-center items-center text-center px-4 sm:px-6 py-12">
+       {/* Title */}
       <h1 className="text-3xl text-white dark:text-black sm:text-4xl md:text-4xl font-extrabold mb-4   ">
         My Resume
       </h1>
@@ -20,8 +21,8 @@ const Resume = () => {
       {/* Buttons */}
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
         <a
-          download={"/public/images/Usmonjonov-Biloliddin-FlowCV-Resume-20260107.pdf"}
-          href="/public/images/Usmonjonov-Biloliddin-FlowCV-Resume-20260107.pdf"
+          download={"/public/images/Biloliddin_Usmonjonov .pdf"}
+          href="/images/Usmonjonov-Biloliddin-FlowCV-Resume-20260107.pdf"
           className="flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white font-medium rounded-2xl shadow-lg hover:bg-green-700 hover:scale-105 transform transition-all duration-300 w-full sm:w-auto"
         >
           <FileDown size={20} />
@@ -29,7 +30,7 @@ const Resume = () => {
         </a>
 
         <a
-          href="/public/images/Usmonjonov-Biloliddin-FlowCV-Resume-20260107.pdf"
+          href="/images/Biloliddin_Usmonjonov .pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white font-medium rounded-2xl shadow-lg hover:bg-blue-700 hover:scale-105 transform transition-all duration-300 w-full sm:w-auto"
@@ -38,6 +39,7 @@ const Resume = () => {
           View
         </a>
       </div>
+     </div>
     </section>
   );
 };

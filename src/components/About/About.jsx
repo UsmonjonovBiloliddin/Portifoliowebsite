@@ -4,9 +4,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full flex justify-center items-center bg-gray-800 dark:bg-gray-100 py-16 px-4 sm:px-6"
+      className=" bg-gray-800 dark:bg-gray-100 "
     >
-      <div
+      <div className="container w-full flex justify-center items-center py-16 px-4 sm:px-6">
+        <div
         className="w-full max-w-5xl flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12
         bg-gray-900 dark:bg-white shadow-2xl rounded-2xl p-6 sm:p-10
         border border-gray-700 dark:border-gray-200"
@@ -33,6 +34,7 @@ const About = () => {
             <p><span className="font-semibold text-green-400">Location:</span> Fergana, Uzbekistan</p>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
